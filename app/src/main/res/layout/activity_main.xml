@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+      <Button
+          android:id="@+id/maru"
+          android:layout_width="160dp"
+          android:layout_height="160dp"
+          android:layout_marginRight="20dip"
+          android:background="@drawable/comment"/>
+    <Button
+        android:id="@+id/batu"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/comment"/>
+</LinearLayout>
